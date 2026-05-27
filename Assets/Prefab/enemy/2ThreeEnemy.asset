@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35793a61a74cba478da2a870823570b, type: 3}
+  m_Name: 2ThreeEnemy
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: "\uC801"
+  maxHp: 1
+  scoreValue: 100
+  bodyColor: {r: 1, g: 1, b: 1, a: 1}
+  scaleMultiplier: 3
+  movementType: 3
+  moveSpeed: 10
+  stopDistance: 5
+  retreatSpeed: 3
+  zigzagFrequency: 2
+  zigzagAmplitude: 3
+  chargeSpeed: 18
+  chargeWindup: 1.2
+  chargePausetime: 0.8
+  strafeRadius: 10
+  strafeSpeed: 120
+  attackRange: 30
+  projectilePrefab: {fileID: 1509277816933934914, guid: c9e5f01819f271f42b10322146ae56de, type: 3}
+  fireInterval: 6
+  attackPattern: 1
+  bulletCount: 5
+  spreadAngle: 70
+  burstInterval: 0.1
+  spiralAngleStep: 30
+  lootPrefab: {fileID: 5171816840530948928, guid: 60c240e10dd8aaf41b5a9027279dd760, type: 3}
+  lootDropChance: 0.41
+  itemPrefabs:
+  - {fileID: 8781847986166405748, guid: 013fc29e839003a498c681ed2ff0a4aa, type: 3}
+  - {fileID: 2272586619125456360, guid: 9ad67d1fad7ea25459b98251b7b52676, type: 3}
+  - {fileID: 4897928590724850497, guid: f0fee79259760c04bad18c3f24106bbf, type: 3}
+  itemDropChance: 0.221
+  hitEffectPrefab: {fileID: 7182729377922027210, guid: b512835c6e01b584d9b9ab3d864c1b29, type: 3}
+  hitEffectDuration: 0.1
+  deathEffectPrefab: {fileID: 8793102972620395909, guid: 4b19e134d9fd73142bf16eb2c04431e6, type: 3}
+  deathEffectDuration: 1.5

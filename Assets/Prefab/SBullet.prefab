@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1960384548680269377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.54622
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000014017503
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.529494
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      propertyPath: m_Name
+      value: SBullet
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5524214791794977646}
+  m_SourcePrefab: {fileID: 100100000, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+--- !u!1 &1726504343798891280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 97f8cdbbd6ca1e8429dd586407bddbad, type: 3}
+  m_PrefabInstance: {fileID: 1960384548680269377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5524214791794977646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726504343798891280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad5f199de99fd9e4481b3b01cb6d72e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bullet
+  speed: 10
+  lifetime: 30
+  rotateSpeed: 60
+  collisionDelay: 1
+  target: {fileID: 0}
+  isStraight: 1
+  hitEffectPrefab: {fileID: 0}
+  hitEffectDuration: 0.1
+  isBossBullet: 0

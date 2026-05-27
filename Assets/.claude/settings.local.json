@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /d/30905/rlsmdTest/Assets/Script/*.cs)",
+      "WebFetch(domain:github.com)",
+      "Bash(powershell:*)",
+      "Bash(unity-cli status:*)",
+      "Bash(/c/Users/user/AppData/Local/unity-cli/unity-cli.exe status:*)",
+      "Bash(/c/Users/user/AppData/Local/unity-cli/unity-cli.exe exec:*)",
+      "Bash(/c/Users/user/AppData/Local/unity-cli/unity-cli.exe editor:*)",
+      "Bash(\"/c/Users/user/AppData/Local/unity-cli/unity-cli.exe\" console:*)"
+    ]
+  }
+}
